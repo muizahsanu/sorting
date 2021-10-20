@@ -1,0 +1,40 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sorting</title>
+
+    <style>
+        .container{
+            border: 2px solid black;
+            transition: 1s;
+        }
+        .card{
+            width: 82px;
+            text-align: center;
+            line-height: 82px;
+            font-size: 20px;
+            color: white;
+            font-weight: bold;
+            display: inline-block;
+            background-color: mediumslateblue;
+            transition: 1s;
+            margin: 8px;
+        }
+        .card.iniDia{
+            background-color: tomato;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+    </div>
+
+    <button onclick="SelectionSort()">Selection Sort</button>
+    <button onclick="BubleSort()">Buble Sort</button>
+
+    <script src="Sorting.js"></script>
+</body>
+
+</html>
